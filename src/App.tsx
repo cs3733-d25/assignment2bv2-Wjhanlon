@@ -1,6 +1,7 @@
 import './App.css'
 import { Title } from "./title.tsx";
 import { Intro } from "./intro.tsx";
+import { Hobby1} from "./hobby1.tsx";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <>
         <Title />
         <Intro name="Patrick Tirch" name2="William Hanlon" />
-
+        <Hobby1 />
     </>
   )
 }
