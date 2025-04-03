@@ -5,72 +5,72 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-#intro {
-  @apply
-}
-
-#hobby {
-
-}
-
-form {
-
-}
-
-table {
 
 }
 
 body {
-  background-color: orangered;
+  background: rgb(42,0,255);
+  background: linear-gradient(90deg, rgba(42,0,255,1) 0%, rgba(255,80,5,1) 43%, rgba(221,64,56,1) 69%, rgba(89,0,255,1) 100%);
+
 }
 
-.bothHobbies {
-  @apply flex justify-center gap-x-10;
+
+
+img {
+  display:flex;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-.PatrickHobby {
-  @apply w-1/2;
+
+
+
+.collapse {
+  border-collapse: collapse;
 }
 
-.WilliamHobby {
-  @apply w-1/2;
+form {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid black;
+  @apply flex flex-col justify-center items-center text-white;
+}
+
+input[type=text]{
+  border-radius: 8px;
+  outline: #1a1a1a solid 1px;
+  margin-left: 1rem;
+
+  @apply rounded-lg shadow-md border-gray-200 focus:outline-none focus:ring;
+}
+
+textarea {
+  border-radius: 8px;
+  outline: #1a1a1a solid 1px;
+  margin-left: 1rem;
+
+  @apply rounded-lg shadow-md border-gray-200 focus:outline-none focus:ring;
+}
+
+select {
+  color: black;
+  border-radius: 8px;
+  outline: #1a1a1a solid 1px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+
+  @apply rounded-lg shadow-md border-gray-200 focus:outline-none focus:ring;
+  @apply rounded-lg shadow-md border-gray-200 focus:outline-none focus:ring;
 }

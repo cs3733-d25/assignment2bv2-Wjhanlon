@@ -1,7 +1,7 @@
 export function List2() {
     return (
         <>
-            <h2>Current Musical Projects</h2>
+            <h2>Current Musical Projects:</h2>
             <ol id = 'projects'>
                 <li>Making the soundtrack to a video game</li>
                 <li>Re-scoring old movies with new music</li>
