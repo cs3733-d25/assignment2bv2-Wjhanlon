@@ -15,7 +15,7 @@ export function Form1() {
                     <option value="grad">Grad Student</option>
                     <option value="prof">Professor</option>
                 </select>
-                <br />
+
                 <br />
                 <label htmlFor="favband">Enter your favorite artist/band:</label>
                 <input type="text" id="favband" />

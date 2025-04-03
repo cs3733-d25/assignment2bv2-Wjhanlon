@@ -37,7 +37,7 @@ export function Form2(){
 
             <label htmlFor="comments">Additional Comments</label>
             <br/>
-            <textarea id="comments" placeholder="enter text here"></textarea>
+            <textarea id="comments" placeholder="enter text here" rows={3} cols={55}></textarea>
             <br/>
             <label htmlFor="daw">Choose your favorite DAW (Digital Audio Workspace</label>
             <select id="daw" name="daw">

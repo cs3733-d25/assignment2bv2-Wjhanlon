@@ -1,6 +1,9 @@
+import './MyTable.css'
+
 export function Table2() {
     return (
         <>
+            <div className='tableDiv'>
         <table className="collapse">
             <caption>Comparison of Different Music Workspaces</caption>
             <tbody>
@@ -36,7 +39,8 @@ export function Table2() {
             </tr>
             </tbody>
         </table>
-            <hr/>
+
+            </div>
             </>
     )
 }

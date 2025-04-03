@@ -1,9 +1,12 @@
+import './MyTable.css'
+
 export function Table1() {
     return(
         <>
+            <div className='tableDiv'>
             <h3>My Favorites</h3>
             Here's a collection of my favorite music groups in certain genres:
-            <table>
+            <table className="collapse">
                 <tbody>
                 <tr>
                     <th>Classic Rock</th>
@@ -41,6 +44,7 @@ export function Table1() {
                 </tr>
                 </tbody>
             </table>
+            </div>
         </>
     )
 }
