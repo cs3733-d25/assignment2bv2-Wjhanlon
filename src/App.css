@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,36 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#intro {
+  @apply
+}
+
+#hobby {
+
+}
+
+form {
+
+}
+
+table {
+
+}
+
+body {
+  background-color: orangered;
+}
+
+.bothHobbies {
+  @apply flex justify-center gap-x-10;
+}
+
+.PatrickHobby {
+  @apply w-1/2;
+}
+
+.WilliamHobby {
+  @apply w-1/2;
 }

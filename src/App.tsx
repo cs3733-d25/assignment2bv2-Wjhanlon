@@ -16,14 +16,20 @@ function App() {
     <>
         <Title />
         <Intro name="Patrick Tirch" name2="William Hanlon" />
-        <Hobby1 />
-        <List1 />
-        <Table1 />
-        <Form1 />
-        <Hobby2 />
-        <List2 />
-        <Table2 />
-        <Form2 />
+        <div className="bothHobbies">
+            <div className="PatrickHobby">
+                <Hobby1 />
+                <List1 />
+                <Table1 />
+                <Form1 />
+            </div>
+            <div className="WilliamHobby">
+                <Hobby2 />
+                <List2 />
+                <Table2 />
+                <Form2 />
+            </div>
+        </div>
     </>
   )
 }
