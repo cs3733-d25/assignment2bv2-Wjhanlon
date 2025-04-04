@@ -1,3 +1,5 @@
+import './list.css'
+
 export function List2() {
     return (
         <>
