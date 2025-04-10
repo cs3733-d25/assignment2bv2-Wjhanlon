@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+.tableDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+}
+
+.collapse {
+    border-collapse: collapse;
+}
