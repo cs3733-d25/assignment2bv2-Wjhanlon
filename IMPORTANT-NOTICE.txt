@@ -1,3 +1,0 @@
-PLEASE NOTE:
-
-I, Patrick Tirch, accidentally merged a vite project into this git repo well after the deadline, which I contacted the professor about. The last commit for this project officially was from William Hanlon.
