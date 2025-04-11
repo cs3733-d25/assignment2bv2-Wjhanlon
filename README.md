@@ -2,6 +2,10 @@
 # Assignment 2B - React Web Pages
 *DUE: Tuesday, April 2 by 11:59pm, but we will accept the assignment until April 3 at 11:59pm without penalty, if you need the extra day.  
 
+***PLEASE NOTE***
+
+I, Patrick Tirch, accidentally merged a vite project into this git repo well after the deadline, which I contacted the professor about. The last commit for this project officially was from William Hanlon.
+
 **Enter both of your names below. If we cannot figure out who did the assignment, we cannot grade it!**
 ### Name: William Hanlon
 ### Name: Patrick Tirch
